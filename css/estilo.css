@@ -1,0 +1,777 @@
+@import "@material/fab/mdc-fab";
+header {
+      width: 100%;
+      position: fixed;
+      z-index: 101;
+}
+.contenedor{
+  display: block;
+  background-image: url("../img/back0001.png");
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  height: 41em;
+  animation-name: imagenes-animacion;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+  animation-timing-function:cubic-bezier();
+  z-index: -1;
+}
+.contenedor1{
+  display: none;
+}
+
+  #abejita{
+    display:flex;
+    position:absolute;
+    left: -5%;
+    top: 20%;
+    animation-name: abeja-animacion;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    animation-delay: 1s;
+    animation-timing-function:ease;
+    z-index: 10;
+  }
+  @keyframes abeja-animacion {
+      0% {
+        background-image: url("../img/abejita003.gif");
+        left: 8em;
+        top: 22em;
+        background-repeat: no-repeat;
+        animation: 'rotatex';
+
+      }
+      5% {
+        background-image: url("../img/abejita003.gif");
+        left: 10em;
+        top: 22em;
+        background-repeat: no-repeat;
+        animation: 'rotatex';
+      }
+      20%{
+        background-image: url("../img/abejita003.gif");
+        left: 18em;
+        top: 20em;
+        background-repeat: no-repeat;
+        animation: 'rotatex';
+      }
+      25%{
+        background-image: url("../img/abejita003.gif");
+        left: 20em;
+        top: 20em;
+        background-repeat: no-repeat;
+        animation: 'rotatex';
+      }
+      40% {
+        background-image: url("../img/abejita003.gif");
+        left: 28em;
+        top: 28em;
+        background-repeat: no-repeat;
+        animation: 'rotatex';
+        }
+      45% {
+          background-image: url("../img/abejita003.gif");
+          left: 29em;
+          top: 28em;
+          background-repeat: no-repeat;
+          animation: 'rotatex';
+          }
+      60%{
+        background-image: url("../img/abejita003.gif");
+        background-repeat: no-repeat;
+        animation: 'rotatex';
+        left: 16em;
+        top: 30em;
+      }
+      65%{
+        background-image: url("../img/abejita003.gif");
+        background-repeat: no-repeat;
+        animation: 'rotatex';
+        left: 18em;
+        top: 30em;
+      }
+      75% {
+        background-image: url("../img/abejita003.gif");
+        background-repeat: no-repeat;
+        animation: 'rotatex';
+        left: 42em;
+        top: 25em;
+      }
+      80% {
+        background-image: url("../img/abejita003.gif");
+        background-repeat: no-repeat;
+        animation: 'rotatex';
+        left: 45em;
+        top: 25em;
+      }
+      100% {
+        background-image: url("../img/abejita003.gif");
+        left: 8em;
+        top: 22em;
+        background-repeat: no-repeat;
+        animation: 'rotatex';
+      }
+    }
+
+    #f1 {
+      display:flex;
+      position:absolute;
+      padding: 10px;
+      margin: 10px;
+      float: left; width: 200px;
+      position: absolute;
+      left: 6em;
+      top: 20em;
+      animation-name: flor-animacion1;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-delay: 1s;
+      animation-delay: 1s;
+      animation-timing-function:linear;
+      z-index: 2;
+    }
+    @keyframes flor-animacion1 {
+        1% {
+          opacity: 0.5;
+          src: url("../img/flor002.png");
+          left: 6em;
+          top: 20em;
+          background-repeat: no-repeat;
+        }
+        3% {
+          opacity: 1;
+          background-image: url("../img/flor001.png");
+          left: 6em;
+          top: 20em;
+          background-repeat: no-repeat;
+        }
+      }
+
+
+      #f2 {
+        display:flex;
+        position:absolute;
+        padding: 10px;
+        margin: 10px;
+        float: left; width: 200px;
+        position: absolute;
+        left: 16em;
+        top: 18em;
+        animation-name: flor-animacion2;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-delay: 1s;
+        animation-delay: 1s;
+        animation-timing-function:linear;
+        z-index: 2;
+      }
+      @keyframes flor-animacion2 {
+          21% {
+            opacity: 0.5;
+            src: url("../img/flor002.png");
+            left: 16em;
+            top: 18em;
+            background-repeat: no-repeat;
+          }
+          23% {
+            opacity: 1;
+            background-image: url("../img/flor001.png");
+            left: 16em;
+            top: 18em;
+            background-repeat: no-repeat;
+          }
+        }
+
+        #f3 {
+          display:flex;
+          position:absolute;
+          padding: 10px;
+          margin: 10px;
+          float: left; width: 200px;
+          position: absolute;
+          top: 26em;
+          left: 26em;
+          animation-name: flor-animacion3;
+          animation-duration: 10s;
+          animation-iteration-count: infinite;
+          -webkit-animation-delay: 1s;
+          -moz-animation-delay: 1s;
+          -o-animation-delay: 1s;
+          animation-delay: 1s;
+          animation-timing-function:linear;
+          z-index: 2;
+        }
+        @keyframes flor-animacion3 {
+            41% {
+              opacity: 0.5;
+              src: url("../img/flor002.png");
+              left: 26em;
+              top: 26em;
+              background-repeat: no-repeat;
+            }
+            43% {
+              opacity: 1;
+              background-image: url("../img/flor001.png");
+              left: 26em;
+              top: 26em;
+              background-repeat: no-repeat;
+            }
+          }
+
+          #f4 {
+            display:flex;
+            position:absolute;
+            padding: 10px;
+            margin: 10px;
+            float: left; width: 200px;
+            position: absolute;
+            top: 28em;
+            left: 14em;
+            animation-name: flor-animacion4;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            -webkit-animation-delay: 1s;
+            -moz-animation-delay: 1s;
+            -o-animation-delay: 1s;
+            animation-delay: 1s;
+            animation-timing-function:ease;
+            z-index: 3;
+          }
+          @keyframes flor-animacion4 {
+              64% {
+                opacity: 0.5;
+                src: url("../img/flor002.png");
+                left: 14em;
+                top: 28em;
+                background-repeat: no-repeat;
+              }
+              65% {
+                opacity: 1;
+                background-image: url("../img/flor001.png");
+                left: 14em;
+                top: 28em;
+                background-repeat: no-repeat;
+              }
+            }
+
+            #f5 {
+              display:flex;
+              position:absolute;
+              padding: 10px;
+              margin: 10px;
+              float: left; width: 200px;
+              position: absolute;
+              left: 37em;
+              top: 24em;
+              animation-name: flor-animacion5;
+              animation-duration: 10s;
+              animation-iteration-count: infinite;
+              -webkit-animation-delay: 1s;
+              -moz-animation-delay: 1s;
+              -o-animation-delay: 1s;
+              animation-delay: 1s;
+              animation-timing-function:linear;
+              z-index: 5;
+            }
+            @keyframes flor-animacion5 {
+                77% {
+                  opacity: 0.5;
+                  src: url("../img/flor002.png");
+                  left: 37em;
+                  top: 24em;
+                  background-repeat: no-repeat;
+                }
+                78% {
+                  opacity: 1;
+                  background-image: url("../img/flor001.png");
+                  left: 37em;
+                  top: 24em;
+                  background-repeat: no-repeat;
+                }
+              }
+#mision {
+}
+
+.imagenServ{
+  width:50%;
+  height:auto;
+
+}
+
+#productos {
+    background-image: url("../img/back0003.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    height: 200em;
+}
+
+#contactos {
+    background-image: url("../img/back0003.png");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    height: 30em;
+}
+
+/*cierra menu */
+    .navegador {
+      display:block;
+      background-color:transparent;
+      opacity: 0.5;
+      color: #000000;
+    }
+    .navegador1{
+      display: none;
+    }
+
+    .navegador #nav0:hover{
+      background-color:#ede0d6;
+      opacity: 1;
+    }
+
+    table, td, tr{
+      border: hidden;
+    }
+
+    .dropdown-content{width: max-content !important;height:auto !important; }
+    /* fin menu */
+
+    .titulos h5 {
+       text-transform: uppercase;
+       color: #fff;
+       text-align: center;
+       font-size: 17px;
+       background: rgba(0, 63, 114, 0.8);
+       margin: 20px 0 0 0;
+    }
+    .titulos p {
+       font-family: Georgia, serif;
+       font-style: italic;
+       font-size: 12px;
+       color: #013F72;
+       padding: 10px 20px 20px;
+       text-align: center;
+    }
+
+    input[type="text"]{
+      width: 80%;
+      font-size: 0.8rem;
+    }
+    form {
+      width: 90%;
+      margin: 0 auto 1em auto;
+      text-align: center;
+    }
+
+    input {
+      color: #013F72;
+      text-align: center;
+      width: 70% !important;
+      margin: 0 auto;
+      border-bottom: 1px solid #66CCCC !important;
+    }
+    textarea{
+      color: #013F72;
+      text-align: center;
+      width: 70% !important;
+      margin: 0 auto;
+      border-bottom: 1px solid #66CCCC !important;
+    }
+    .guardar, .close1, .close {
+        color: #013F72;
+        width: 2%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .cotiza1 .cotiza2 > h5{
+      font-family: 'Yellowtail', cursive;
+      font-size: 15px;
+      font-weight: bold;
+      color: #013F72;
+    }
+
+    .logo_final{
+      display: block;
+    }
+
+
+    @media screen and (max-width:900px) {
+      header {
+            width: 100%;
+            position:static;
+            z-index: 101;
+      }
+
+
+      #productos {
+          height: 220em;
+      }
+
+      .logo_final{
+        display: none;
+      }
+
+      /* menu  */
+      .navegador{
+        display: none;
+      }
+      .navegador1{
+        display:inline;
+        background-color:#4D5969;
+      }
+      /* fin menu */
+      /* diseño svg */
+      .imagenServ{
+        width:70%;
+        height:auto;
+      }
+
+    }
+
+    @media screen and (max-width: 600px) {
+      /* menu  */
+      header {
+            width: 100%;
+            position:static;
+            z-index: 101;
+      }
+      .contenedor{
+        display: none;
+      }
+      .contenedor1{
+        display: block;
+        background-image: url("../img/back0001a.png");
+        position: relative;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        height: 30em;
+
+      }
+
+      #abejita{
+        display:flex;
+        position:absolute;
+        left: -5%;
+        top: 20%;
+        animation-name: abeja-animacion;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-delay: 1s;
+        animation-delay: 1s;
+        animation-timing-function:ease;
+        z-index: 10;
+      }
+      @keyframes abeja-animacion {
+          0% {
+            background-image: url("../img/abejita003.gif");
+            left: 8em;
+            top: 15em;
+            background-repeat: no-repeat;
+            animation: 'rotatex';
+
+          }
+          5% {
+            background-image: url("../img/abejita003.gif");
+            left: 10em;
+            top: 15em;
+            background-repeat: no-repeat;
+            animation: 'rotatex';
+          }
+          20%{
+            background-image: url("../img/abejita003.gif");
+            left: 5em;
+            top: 5em;
+            background-repeat: no-repeat;
+            animation: 'rotatex';
+          }
+          25%{
+            background-image: url("../img/abejita003.gif");
+            left: 7em;
+            top: 5em;
+            background-repeat: no-repeat;
+            animation: 'rotatex';
+          }
+          40% {
+            background-image: url("../img/abejita003.gif");
+            left: 13em;
+            top: 15em;
+            background-repeat: no-repeat;
+            animation: 'rotatex';
+            }
+          45% {
+              background-image: url("../img/abejita003.gif");
+              left: 15em;
+              top: 15em;
+              background-repeat: no-repeat;
+              animation: 'rotatex';
+              }
+          60%{
+            background-image: url("../img/abejita003.gif");
+            background-repeat: no-repeat;
+            animation: 'rotatex';
+            left: 20em;
+            top: 20em;
+          }
+          65%{
+            background-image: url("../img/abejita003.gif");
+            background-repeat: no-repeat;
+            animation: 'rotatex';
+            left: 22em;
+            top: 20em;
+          }
+          75% {
+            background-image: url("../img/abejita003.gif");
+            background-repeat: no-repeat;
+            animation: 'rotatex';
+            left: 35em;
+            top: 5em;
+          }
+          80% {
+            background-image: url("../img/abejita003.gif");
+            background-repeat: no-repeat;
+            animation: 'rotatex';
+            left: 37em;
+            top: 5em;
+          }
+          100% {
+            background-image: url("../img/abejita003.gif");
+            left: 8em;
+            top: 15em;
+            background-repeat: no-repeat;
+            animation: 'rotatex';
+          }
+        }
+
+
+
+      #productos {
+          height: 395em;
+      }
+
+      .navegador{
+        display:none;
+      }
+      .navegador1{
+        display:inline;
+        background-color:#4D5969;
+        border-bottom: 5px solid #29b6f6;
+      }
+
+  .imagenServ{
+    width:100%;
+    height:auto;
+  }
+  .imagenServ:hover{
+      opacity: 0.5;
+  }
+
+  #contactos {
+    height: 50em;
+  }
+
+  .logo_final{
+    display: none;
+  }
+
+      /* diseño svg */
+/*      #svg3719 .textM{
+        transform: rotatey(0deg);
+        fill:#66cdcd;
+        fill-opacity:0;
+        animation-name: letraM-animacion;
+          animation-duration: 10s;
+          animation-iteration-count: infinite;
+          -webkit-animation-delay: 1s;
+          -moz-animation-delay: 1s;
+          -o-animation-delay: 1s;
+          animation-delay: 1s;
+          position: absolute;
+          border: 1px solid red;
+          top: 20px;
+          right: 0;
+
+      }
+      @keyframes letraM-animacion {
+          0% {
+            transform: rotateY(100deg);
+            fill:#66cdcd;
+            fill-opacity:0;
+          }
+          40% {
+            transform: rotateY(0deg);
+            fill:#66cdcd;
+            fill-opacity:1;
+          }
+          60% {
+            transform: rotateY(0deg);
+            fill:#66cdcd;
+            fill-opacity:1;
+          }
+          100% {
+            transform: rotateY(0deg);
+            fill:#66cdcd;
+            fill-opacity:0;
+          }
+        }
+
+        #svg3719 .textS{
+          transform: rotateZ(-100deg);
+          fill:#FF9934;
+          fill-opacity:0;
+          animation-name: letraS-animacion;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            -webkit-animation-delay: 1s;
+            -moz-animation-delay: 1s;
+            -o-animation-delay: 1s;
+            animation-delay: 1s;
+            position: absolute;
+            border: 1px solid red;
+            top: 20px;
+            right: 0;
+
+        }
+        @keyframes letraS-animacion {
+            0% {
+              transform: rotateZ(-50deg);
+              fill:#FF9934;
+              fill-opacity:0;
+            }
+            40% {
+              transform: rotateZ(0deg);
+              fill:#FF9934;
+              fill-opacity:1;
+            }
+            60% {
+              transform: rotateZ(0deg);
+              fill:#FF9934;
+              fill-opacity:1;
+            }
+            100% {
+              transform: rotateZ(0deg);
+              fill:#FF9934;
+              fill-opacity:0.1;
+            }
+          }
+
+      #svg3719 .textD{
+        transform: rotate(180deg);
+        fill:#02cb96;
+        fill-opacity:0;
+        animation-name: letraD-animacion;
+          animation-duration: 10s;
+          animation-iteration-count: infinite;
+          -webkit-animation-delay: 1s;
+          -moz-animation-delay: 1s;
+          -o-animation-delay: 1s;
+          animation-delay: 1s;
+          position: absolute;
+          border: 1px solid red;
+          top: 10px;
+          right: 0;
+
+      }
+      @keyframes letraD-animacion {
+          0% {
+            transform: rotate(50deg);
+            fill:#02cb96;
+            fill-opacity:0;
+          }
+          40% {
+            transform: rotate(-10deg);
+            fill:#02cb96;
+            fill-opacity:1;
+          }
+          60% {
+            transform: rotate(-10deg);
+            fill:#02cb96;
+            fill-opacity:0.5;
+          }
+          100% {
+            transform: rotate(-15deg);
+            fill:#02cb96;
+            fill-opacity:0;
+          }
+        }
+
+        #svg3719 .innova{
+          transform: rotateX(-100deg);
+          fill:#00659C;
+          fill-opacity:0;
+          animation-name: letraI-animacion;
+          animation-duration: 10s;
+          animation-iteration-count: infinite;
+          -webkit-animation-delay: 1s;
+          -moz-animation-delay: 1s;
+          -o-animation-delay: 1s;
+          animation-delay: 1s;
+          animation-timing-function:cubic-bezier();
+          position: absolute;
+          border: 1px solid red;
+          top: 20px;
+          right: 0;
+
+        }
+        @keyframes letraI-animacion {
+            0% {
+              transform: rotateX(-50deg);
+              fill:#006699;
+              fill-opacity:0;
+            }
+            40% {
+              transform: rotateX(0deg);
+              fill:#006699;
+              fill-opacity:1;
+            }
+            60% {
+              transform: rotateX(15deg);
+              fill:#006699;
+              fill-opacity:0.3;
+            }
+            70% {
+              transform: rotateX(0deg);
+              fill:#006699;
+              fill-opacity:0.1;
+            }
+            80% {
+              transform: rotateX(0deg);
+              fill:#006699;
+              fill-opacity:0.1;
+            }
+            100% {
+              transform: rotateX(0deg);
+              fill:#006699;
+              fill-opacity:0;
+            }
+          }
+*/    .imagenesprod{
+      visibility: hidden;
+    }
+
+    }
